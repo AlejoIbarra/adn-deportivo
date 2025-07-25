@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import type { IndexCollectionItem } from '@nuxt/content'
+import { useColorMode } from '#imports'
+const colorMode = useColorMode()
 
 const { footer, global } = useAppConfig()
 
@@ -33,12 +35,19 @@ defineProps<{
           delay: 0.1
         }"
       >
-        <UColorModeAvatar
-          class="size-18 ring ring-default ring-offset-3 ring-offset-(--ui-bg)"
+
+        <img
+        class="w-50 h-25 "
+          :src="colorMode.value === 'dark' ? global.picture.dark : global.picture.light"
+          :alt="global.picture.alt"
+
+        />
+        <!-- <UColorModeAvatar
+          class=" w-[72px] h-[72px] object-contain rounded-none"
           :light="global.picture?.light!"
           :dark="global.picture?.dark!"
           :alt="global.picture?.alt!"
-        />
+        /> -->
       </Motion>
     </template>
 

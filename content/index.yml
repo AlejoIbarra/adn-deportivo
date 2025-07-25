@@ -1,32 +1,29 @@
 seo:
-  title: "Emma Thompson - UX/UI Designer"
-  description: "Welcome to my portfolio! I'm Emma Thompson, a UX/UI designer and front-end developer based in Boston. I specialize in creating user-centered digital experiences that are both beautiful and functional."
-title: "Hey, I'm Emma Thompson UX/UI Designer"
-description: "I craft intuitive digital experiences where design meets functionality. Based in Boston, bringing ideas to life through code and creativity."
+  title: "ADN Deportivo"
+  description: "ADN Deportivo es la plataforma líder del deporte en Nariño, enfocada en visibilizar y potenciar el talento futbolístico local. Cubrimos todo el fútbol regional: ligas municipales, torneos departamentales, escuelas de formación, clubes amateur y fútbol profesional con enfoque nariñense. Somos el canal donde el fútbol de barrio y las promesas juveniles se hacen noticia. Entrevistas exclusivas, transmisiones en vivo, resultados, tablas, estadísticas, goles, historias y análisis profundo del deporte que corre por nuestras venas."
+title: "ADN Deportivo"
+description: "Impulsamos el ADN futbolero de Nariño al mundo digital. Si está ocurriendo en una cancha de Nariño, está en ADN Deportivo. Noticias frescas, contenido visual, y conexión real con la comunidad deportiva."
 hero:
-  links:
-    - label: "Use this template"
-      to: https://github.com/nuxt-ui-pro/portfolio
-      color: "neutral"
+  # links:
+  #   - label: "Use this template"
+  #     to: https://github.com/nuxt-ui-pro/portfolio
+  #     color: "neutral"
   images:
-    - src: https://picsum.photos/468/468?random=1
+    - src: /images/1.jpg
       alt: Random Image 1
-    - src: https://picsum.photos/468/468?random=2
+    - src: /images/2.jpg
       alt: Random Image 2
-    - src: https://picsum.photos/468/468?random=3
+    - src: /images/3.jpg
       alt: Random Image 3
-    - src: https://picsum.photos/468/468?random=4
+    - src: /images/4.jpg
       alt: Random Image 4
-    - src: https://picsum.photos/468/468?random=5
+    - src: /images/5.jpg
       alt: Random Image 5
-    - src: https://picsum.photos/468/468?random=6
+    - src: /images/6.jpg
       alt: Random Image 6
-    - src: https://picsum.photos/468/468?random=6
-      alt: Random Image 6
-    - src: https://picsum.photos/468/468?random=7
+    - src: /images/7.jpg
       alt: Random Image 7
-    - src: https://picsum.photos/468/468?random=8
-      alt: Random Image 8
+
 about:
   title: "About Me"
   description: |

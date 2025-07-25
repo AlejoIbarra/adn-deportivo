@@ -1,8 +1,8 @@
 export default defineAppConfig({
   global: {
     picture: {
-      dark: 'https://images.unsplash.com/photo-1701615004837-40d8573b6652?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      light: 'https://images.unsplash.com/photo-1701615004837-40d8573b6652?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      dark: '/iconos/adn_white.png',
+      light: '/iconos/adn_color.png',
       alt: 'My profile picture'
     },
     meetingLink: 'https://cal.com/',
@@ -27,26 +27,30 @@ export default defineAppConfig({
   footer: {
     credits: `Copyright © ${new Date().getFullYear()}`,
     colorMode: false,
-    links: [{
-      'icon': 'i-simple-icons-nuxtdotjs',
-      'to': 'https://nuxt.com',
-      'target': '_blank',
-      'aria-label': 'Nuxt Website'
-    }, {
-      'icon': 'i-simple-icons-discord',
-      'to': 'https://discord.com/invite/ps2h6QT',
+    links: [
+    //   {
+    //   'icon': 'i-simple-icons-nuxtdotjs',
+    //   'to': 'https://nuxt.com',
+    //   'target': '_blank',
+    //   'aria-label': 'Nuxt Website'
+    // },
+     {
+      'icon': 'i-simple-icons-facebook',
+      'to': 'https://www.facebook.com/canalADNdeportivo',
       'target': '_blank',
       'aria-label': 'Nuxt UI on Discord'
     }, {
-      'icon': 'i-simple-icons-x',
-      'to': 'https://x.com/nuxt_js',
+      'icon': 'i-simple-icons-instagram',
+      'to': 'https://www.instagram.com/a.d.n.deportivo/',
       'target': '_blank',
       'aria-label': 'Nuxt on X'
-    }, {
-      'icon': 'i-simple-icons-github',
-      'to': 'https://github.com/nuxt/ui',
+    }, 
+    {
+      'icon': 'i-simple-icons-whatsapp',
+      'to': '',
       'target': '_blank',
       'aria-label': 'Nuxt UI on GitHub'
-    }]
+    }
+  ]
   }
 })
